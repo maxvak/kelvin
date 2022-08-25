@@ -1,0 +1,97 @@
+@media(max-width:1230px){
+    .nav__list{
+        display: none;
+    }
+    .nav__button{
+        display: block;
+    }
+    .nav__menu.open .nav__list{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: white;
+        z-index: 1;
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .nav__link{
+        color: #606060;
+    }
+    .nav__link.active{
+        color: black;
+    }
+    .nav__button{
+        position: absolute;
+        z-index: 2 ;
+        top: 46px;
+        right: 36px;
+    }
+    .open .nav__button{
+        position: fixed;
+    }
+    .nav{
+        margin-bottom: 50px;
+    }
+}
+    .content{
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .content__text{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+   
+
+@media(max-width:700px){
+    .content__title{
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 51px;
+    }
+    .content__text{
+        
+        margin: 0 auto;
+    }
+    .services{
+        padding: 60px 0 0 0;
+    }
+    .services__cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-bottom: 60px;
+    }
+    .portfolio{
+        padding: 60px 0 ;
+    }
+    .portfolio__title{
+        margin-bottom: 40px;
+    }
+    .project{
+        margin-bottom: 50px;
+    }
+    .project__image{
+        margin-bottom: 30px;
+    }
+    .contacts {
+        padding: 60px 0;
+    }
+    .contacts__title{
+        margin-bottom: 20px;
+    }
+    .contacts__subtitle{
+        margin-bottom: 20px;
+    }
+    .contacts__links{
+        column-gap: 40px;
+    }
+}
